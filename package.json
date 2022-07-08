@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/irvantaufik28/notes-app-back-end/issues"
   },
-  "homepage": "https://github.com/irvantaufik28/notes-app-back-end#readme"
+  "homepage": "https://github.com/irvantaufik28/notes-app-back-end#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
+  }
 }
